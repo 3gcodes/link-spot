@@ -8,7 +8,6 @@ class ArticleController {
   def index() {}
 
   def list() {
-    println "in the list"
     def articles = Article.list().collect {
       [id: it.id, title: it.title, url: it.url, description: it.description, upVotes: it.upVotes.size(), downVotes: it.downVotes.size()]
     }
