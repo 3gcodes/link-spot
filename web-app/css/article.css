@@ -1,0 +1,10 @@
+.article-block {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 10px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+    -moz-border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
