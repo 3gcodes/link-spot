@@ -1,6 +1,7 @@
 'use strict';
 
 linkSpotApp.controller("ArticlesCtrl", function ($scope, $location, $log, articleService) {
+
   articleService.list().then(function (data) {
     $scope.articles = data;
   });

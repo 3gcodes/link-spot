@@ -2,17 +2,18 @@
 
 var linkSpotApp = angular.module('linkSpotApp', []);
 
-linkSpotApp.config(function ($routeProvider) {
+linkSpotApp.config(function ($routeProvider, $locationProvider) {
+  $locationProvider.html5Mode(true);
 
   $routeProvider.when('/', { redirectTo: '/articles' });
 
   $routeProvider.when('/articles', {
     controller: "ArticlesCtrl",
-    templateUrl: "/link-spot/article/index"
+    templateUrl: "/article/index"
   });
 
   $routeProvider.when("/articles/new", {
     controller: "CreateArticleCtrl",
-    templateUrl: "/link-spot/article/create"
+    templateUrl: "/article/create"
   });
 });

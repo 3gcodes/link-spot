@@ -11,8 +11,8 @@
   <div class="navbar-inner">
     <a class="brand" href="#">link spot</a>
     <ul class="nav">
-      <li><a href="/link-spot/#/articles">Home</a></li>
-      <li><a href="/link-spot/#/articles/new">Spot an Article</a></li>
+      <li><a href="/articles">Home</a></li>
+      <li><a href="/articles/new">Spot an Article</a></li>
     </ul>
   </div>
 </div>
